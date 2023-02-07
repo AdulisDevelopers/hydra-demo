@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+.hero_img{
+    @apply -z-10 border-[15px] border-primary-950;
+    border-radius: 20%;
+    -webkit-clip-path: inset(10px round 80px 20px 30px 10px);
+    clip-path: inset(0px round 50px 50px 50px 180px);
+}
